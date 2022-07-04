@@ -73,7 +73,7 @@ class VetController {
 		// objects so it is simpler for JSon/Object mapping
 		Vets vets = new Vets();
 		vets.getVetList().addAll(this.vets.findAll());
-		System.out.println("it's a test, right?");
+		System.out.println("let's see what happend?");
 		return vets;
 	}
 
